@@ -1,0 +1,20 @@
+{
+  "employeeList" : [
+  {
+   "name" : "Devender",
+   "dept" : "SAP",
+   "role" : "Trainer"
+  },
+  {
+   "name" : "Surender",
+   "dept" : "Marketing",
+   "role" : "Ads"
+  },
+  {
+   "name" : "Mahender",
+   "dept" : "Java",
+   "role" : "Developer"
+  }
+  
+  ]
+}

@@ -1,0 +1,20 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		xmlns:form="sap.ui.layout.form"
+		controllerName="employees.Emp_List" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title" content="{/employeeList}">
+		<content>
+	        <form:SimpleForm>
+	           <form:title>
+	              <core:Title text="{name}"/>
+	           </form:title>
+	           <form:content>
+	                <Label text="Role"/>
+	                <Text text="{role}"/>
+	                <Label text="Department"/>
+	                <Text text="{dept}"/>
+	           </form:content>
+	        </form:SimpleForm>
+	        
+		</content>
+	</Page>
+</core:View>
